@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main() 
+
+{  
+         float n1,n2,n3,n4,n5 ;
+       
+      printf("enter the number is ");
+      scanf("%f",&n1);
+      
+      printf("enter the number is ");
+      scanf("%f",&n2);
+      
+      printf("enter the number is ");
+      scanf("%f",&n3);
+      
+      printf("enter the number is ");
+      scanf("%f",&n4);
+      
+      printf("enter the number is ");
+      scanf("%f",&n5);
+      
+      
+      float sum=n1+n2+n3+n4+n5;
+      printf("the total of the number is %f \n",sum );
+      
+      float per= (sum/500)*100;
+      printf("the percentage of student is %f",per);
+      
+      return 0; 
+}
