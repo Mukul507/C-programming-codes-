@@ -1,0 +1,20 @@
+// code for dividing two numbers
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int n1,z;
+    
+    printf("Enter a numbern =");
+    scanf("%d",&n1);
+    
+    printf("enter a number =");
+    scanf("%d", & z );
+    
+    int divide = n1%z;
+    printf("The remainder is %d",divide);
+    
+    
+    
+    
+}
