@@ -1,0 +1,19 @@
+// Code for adding two numbers 
+#include <stdio.h>
+
+int main() {
+    // Write C code here
+    int n1,n2;
+    
+    printf("enter the number =");
+    scanf("%d",&n1);
+    
+    printf("enter the number =");
+    scanf("%d",&n2);
+    
+    int sum = n1+n2 ;
+    
+    printf(" the sum of both the numbers are %d ",sum );
+    
+    
+}
