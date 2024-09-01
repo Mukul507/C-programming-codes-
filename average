@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main ()
+{ 
+    int n1,n2;
+    
+    printf("enter the number =");
+    scanf("%d",&n1);
+    
+    printf("enter the number =");
+    scanf("%d",&n2);
+    
+    int average= (n1+n2)/2 ;
+    
+    printf(" the average of two numbers is %d",average );
+}
