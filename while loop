@@ -1,0 +1,13 @@
+#include<stdio.h>
+
+int main() {
+    // Write C code here
+    int i=0;
+    while(i<54)
+    { 
+        printf("%d\n",i);
+        i=i+1;
+         
+    }
+    
+}
